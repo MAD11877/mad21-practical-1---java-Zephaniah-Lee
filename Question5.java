@@ -27,6 +27,19 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    
+    int no = in.nextInt();
+    int[] noArray = new int[no];
+    for (int i = 0; i < no; i++)
+    {
+      in = new Scanner(System.in);
+      noArray[i] = in.nextInt();
+    }
+
+    int count = 0;
+
+    for (int i = 0; i < no; i++)
+    {
+      int currentNo = noArray[i];
+    }
   }
 }
